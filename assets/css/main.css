@@ -3684,6 +3684,9 @@ input, select, textarea {
 		.tit_mobile h2 {
 			margin-top: 40px;
 		}
+		#footer {
+			margin-top: 50px;
+		}
 	}
 
 	@media screen and (max-width: 695px){
@@ -3698,6 +3701,14 @@ input, select, textarea {
 			width: 100%;
 			height: 360px;
 			margin-top: 10px;
+			
+		}
+		@media screen and (max-width: 526px) {
+		#banner::before {
+			border-radius: 0;
+			width: 100%;
+			height: 360px;
+			margin-top: 20px;
 			
 		}
 		
