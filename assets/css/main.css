@@ -3542,6 +3542,13 @@ input, select, textarea {
 		height: 100%;
 		object-fit: cover;
 	}
+	header.sub-box {
+		margin-bottom: 0;
+	}
+	
+	footer.footer_box {
+		margin-top: -7em;
+	}
 
 	/* 반응형 css 수정 */
 	@media screen and (max-width: 1680px) {
@@ -3686,6 +3693,9 @@ input, select, textarea {
 		}
 		#footer {
 			margin-top: 50px;
+		}
+		#footer.footer_box {
+			margin-top: -2.5em;
 		}
 	}
 
